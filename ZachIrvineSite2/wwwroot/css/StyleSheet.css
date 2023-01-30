@@ -1,0 +1,26 @@
+﻿body {
+    background-color: #BAB86C;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 50%;
+    border-color: black;
+    border-style: solid;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+}
+
+.box {
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius:10px;
+}
