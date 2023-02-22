@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/lib/bootstrap/bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="img/smileicon.png" />
+</head>
+<body>
+
+    <nav>
+        <a asp-controller="Blah" asp-action="Index">Home</a>
+        <a asp-controller="Blah" asp-action="GradeCalc">Grade Calculator</a>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer>I am a lowly footer.</footer>
+
+    <script src="~/bootstrap/bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/js/bootstrap.js"></script>
+    <script src="~/js/jquery-3.6.3.min.js"></script>
+    <script src="~/js/JavaScript.js"></script>
+</body>
+</html>
